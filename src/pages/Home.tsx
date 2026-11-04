@@ -1,6 +1,8 @@
 import Destinations from "../components/Destinations";
 import Experiences from "../components/Experiences";
+import FeaturedPackages from "../components/FeaturedPackages";
 import Hero from "../components/Hero";
+import HowItWorks from "../components/HowItWorks";
 import WhyChooseUs from "../components/WhyChooseUs";
 
 const Home = () => {
@@ -10,6 +12,8 @@ const Home = () => {
       <Destinations />
       <Experiences />
       <WhyChooseUs />
+      <FeaturedPackages />
+      <HowItWorks />
       </>
   );
 }

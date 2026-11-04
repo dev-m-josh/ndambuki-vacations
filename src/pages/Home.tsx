@@ -1,6 +1,7 @@
 import Destinations from "../components/Destinations";
 import Experiences from "../components/Experiences";
 import Hero from "../components/Hero";
+import WhyChooseUs from "../components/WhyChooseUs";
 
 const Home = () => {
   return (
@@ -8,6 +9,7 @@ const Home = () => {
         <Hero />
       <Destinations />
       <Experiences />
+      <WhyChooseUs />
       </>
   );
 }
